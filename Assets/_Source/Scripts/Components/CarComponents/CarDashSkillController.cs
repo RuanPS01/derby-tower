@@ -2,7 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CarDashSkillController : MonoBehaviour {
+public class CarDashSkillController : MonoBehaviour
+{
     public float dashForce = 500f; // Força do dash
     public float dashDuration = 0.2f; // Duração do dash
 
@@ -12,26 +13,32 @@ public class CarDashSkillController : MonoBehaviour {
     private Rigidbody rb;
     private bool isDashing = false;
 
-    void Start() {
+    void Start()
+    {
         rb = GetComponent<Rigidbody>();
     }
 
-    void Update() {
+    void Update()
+    {
         // Verifica se a tecla E está pressionada para fazer o dash para a esquerda local
-        if(Input.GetKeyDown(KeyCode.E) && !isDashing) {
+        if(Input.GetKeyDown(KeyCode.E) && !isDashing)
+        {
             StartCoroutine(PerformDash(transform.right, leftParcicleObjects));
         }
 
         // Verifica se a tecla Q está pressionada para fazer o dash para a direita local
-        if(Input.GetKeyDown(KeyCode.Q) && !isDashing) {
+        if(Input.GetKeyDown(KeyCode.Q) && !isDashing)
+        {
             StartCoroutine(PerformDash(-transform.right, rightParcicleObjects));
         }
     }
 
-    IEnumerator PerformDash(Vector3 direction, List<GameObject> particlesObjects) {
+    IEnumerator PerformDash(Vector3 direction, List<GameObject> particlesObjects)
+    {
         isDashing = true;
 
-        foreach(GameObject particleObject in particlesObjects) {
+        foreach(GameObject particleObject in particlesObjects)
+        {
             particleObject.SetActive(true);
         }
 
@@ -44,7 +51,8 @@ public class CarDashSkillController : MonoBehaviour {
         rb.velocity = originalVelocity; // Restaura a velocidade após o dash
         isDashing = false;
 
-        foreach(GameObject particleObject in particlesObjects) {
+        foreach(GameObject particleObject in particlesObjects)
+        {
             particleObject.SetActive(false);
         }
     }

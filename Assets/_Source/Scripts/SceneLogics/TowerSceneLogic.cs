@@ -2,14 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TowerSceneLogic : MonoBehaviour {
-    // Start is called before the first frame update
-    void Start() {
-
+public class TowerSceneLogic : MonoBehaviour
+{
+    void Start()
+    {
+        Time.timeScale = 0f;
     }
 
-    // Update is called once per frame
-    void Update() {
-
+    public void StartGameScene()
+    {
+        Time.timeScale = 1f;
     }
 }
