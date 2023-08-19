@@ -1853,7 +1853,7 @@ GameObject:
   - component: {fileID: 40611664}
   - component: {fileID: 40611663}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18433,7 +18433,7 @@ GameObject:
   - component: {fileID: 396380321}
   - component: {fileID: 396380320}
   m_Layer: 0
-  m_Name: Rear_Right_Wheel
+  m_Name: RearRightWheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32732,7 +32732,7 @@ GameObject:
   - component: {fileID: 705507995}
   - component: {fileID: 705507994}
   m_Layer: 0
-  m_Name: Directional_Light
+  m_Name: DirectionalLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33873,7 +33873,7 @@ GameObject:
   - component: {fileID: 722634014}
   - component: {fileID: 722634013}
   m_Layer: 0
-  m_Name: Front_Left_Wheel
+  m_Name: FrontLeftWheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35647,7 +35647,7 @@ GameObject:
   - component: {fileID: 776039543}
   - component: {fileID: 776039544}
   m_Layer: 0
-  m_Name: Rear_Left_Wheel
+  m_Name: RearLeftWheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35807,7 +35807,7 @@ GameObject:
   - component: {fileID: 782135835}
   - component: {fileID: 782135834}
   m_Layer: 0
-  m_Name: Front_Right_Wheel
+  m_Name: FrontRightWheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -48242,7 +48242,7 @@ GameObject:
   - component: {fileID: 1026100882}
   - component: {fileID: 1026100883}
   m_Layer: 0
-  m_Name: Front_Right_Wheel
+  m_Name: FrontRightWheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -49960,7 +49960,7 @@ GameObject:
   - component: {fileID: 1055118409}
   - component: {fileID: 1055118410}
   m_Layer: 0
-  m_Name: Main_Camera
+  m_Name: MainCamera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -49973,7 +49973,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1055118405}
-  m_LocalRotation: {x: 0.03935644, y: 0.00022136485, z: -0.000008718888, w: 0.9992252}
+  m_LocalRotation: {x: 0.039356466, y: 0.00022140182, z: -0.000008720348, w: 0.9992252}
   m_LocalPosition: {x: 4.34, y: 2.2, z: -7.31}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -54533,7 +54533,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1139140024}
   m_Layer: 0
-  m_Name: Follow_Point_Camera
+  m_Name: FollowPointCamera
   m_TagString: Untagged
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -61862,7 +61862,7 @@ GameObject:
   - component: {fileID: 1334686161}
   - component: {fileID: 1334686160}
   m_Layer: 0
-  m_Name: Rear_Left_Wheel
+  m_Name: RearLeftWheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -75620,7 +75620,7 @@ GameObject:
   - component: {fileID: 1664995174}
   - component: {fileID: 1664995173}
   m_Layer: 0
-  m_Name: Virtual_Camera
+  m_Name: VirtualCamera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -75671,7 +75671,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1664995172}
-  m_LocalRotation: {x: 0.03935644, y: 0.00022136485, z: -0.000008718888, w: 0.9992252}
+  m_LocalRotation: {x: 0.039356466, y: 0.00022140182, z: -0.000008720348, w: 0.9992252}
   m_LocalPosition: {x: 4.34, y: 2.2, z: -7.31}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -76827,7 +76827,7 @@ GameObject:
   - component: {fileID: 1692242226}
   - component: {fileID: 1692242227}
   m_Layer: 0
-  m_Name: Front_Left_Wheel
+  m_Name: FrontLeftWheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -85270,7 +85270,7 @@ GameObject:
   - component: {fileID: 1932714870}
   - component: {fileID: 1932714871}
   m_Layer: 0
-  m_Name: Rear_Right_Wheel
+  m_Name: RearRightWheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
